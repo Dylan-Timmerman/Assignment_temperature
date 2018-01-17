@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Temperaturen</h1>
+
+<!--<table>
+  <thead>
+    <tr>
+      <th>Temp</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tempdbs.each do |tempdb| %>
+      <tr>
+        <td><%= tempdb.temp %></td>
+        <td><%= link_to 'Show', tempdb %></td>
+        <td><%= link_to 'Edit', edit_tempdb_path(tempdb) %></td>
+        <td><%= link_to 'Destroy', tempdb, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tempdb', new_tempdb_path %>-->
+
+<br>
+
+<div>
+  <canvas id="myChart" width="400" height="400"></canvas>
+</div>
